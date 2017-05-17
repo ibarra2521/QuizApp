@@ -14,6 +14,10 @@
 		C1B77F241ECA21FA00CF5000 /* QuestionViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B77F231ECA21FA00CF5000 /* QuestionViewControllerTest.swift */; };
 		C1B77F261ECA23F100CF5000 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B77F251ECA23F100CF5000 /* QuestionViewController.swift */; };
 		C1B77F281ECA259000CF5000 /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1B77F271ECA259000CF5000 /* QuestionViewController.xib */; };
+		C1EB6CB41ECCF2FD00403489 /* ResultsViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EB6CB31ECCF2FD00403489 /* ResultsViewControllerTest.swift */; };
+		C1EB6CB61ECCF48B00403489 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EB6CB51ECCF48B00403489 /* ResultsViewController.swift */; };
+		C1EB6CB81ECCF57D00403489 /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1EB6CB71ECCF57D00403489 /* ResultsViewController.xib */; };
+		C1EB6CBA1ECD0B9F00403489 /* TableViewHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1EB6CB91ECD0B9F00403489 /* TableViewHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		C1B77F231ECA21FA00CF5000 /* QuestionViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewControllerTest.swift; sourceTree = "<group>"; };
 		C1B77F251ECA23F100CF5000 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
 		C1B77F271ECA259000CF5000 /* QuestionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
+		C1EB6CB31ECCF2FD00403489 /* ResultsViewControllerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewControllerTest.swift; sourceTree = "<group>"; };
+		C1EB6CB51ECCF48B00403489 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		C1EB6CB71ECCF57D00403489 /* ResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultsViewController.xib; sourceTree = "<group>"; };
+		C1EB6CB91ECD0B9F00403489 /* TableViewHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,8 @@
 				C16681CC1EC50A7D005BF7E0 /* Info.plist */,
 				C1B77F251ECA23F100CF5000 /* QuestionViewController.swift */,
 				C1B77F271ECA259000CF5000 /* QuestionViewController.xib */,
+				C1EB6CB51ECCF48B00403489 /* ResultsViewController.swift */,
+				C1EB6CB71ECCF57D00403489 /* ResultsViewController.xib */,
 			);
 			path = QuizApp;
 			sourceTree = "<group>";
@@ -95,6 +105,8 @@
 				C16681D51EC50A7E005BF7E0 /* QuizAppTests.swift */,
 				C16681D71EC50A7E005BF7E0 /* Info.plist */,
 				C1B77F231ECA21FA00CF5000 /* QuestionViewControllerTest.swift */,
+				C1EB6CB31ECCF2FD00403489 /* ResultsViewControllerTest.swift */,
+				C1EB6CB91ECD0B9F00403489 /* TableViewHelpers.swift */,
 			);
 			path = QuizAppTests;
 			sourceTree = "<group>";
@@ -187,6 +199,7 @@
 				C16681CB1EC50A7D005BF7E0 /* LaunchScreen.storyboard in Resources */,
 				C16681C81EC50A7D005BF7E0 /* Assets.xcassets in Resources */,
 				C1B77F281ECA259000CF5000 /* QuestionViewController.xib in Resources */,
+				C1EB6CB81ECCF57D00403489 /* ResultsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +219,7 @@
 			files = (
 				C1B77F261ECA23F100CF5000 /* QuestionViewController.swift in Sources */,
 				C16681C11EC50A7D005BF7E0 /* AppDelegate.swift in Sources */,
+				C1EB6CB61ECCF48B00403489 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +229,8 @@
 			files = (
 				C1B77F241ECA21FA00CF5000 /* QuestionViewControllerTest.swift in Sources */,
 				C16681D61EC50A7E005BF7E0 /* QuizAppTests.swift in Sources */,
+				C1EB6CB41ECCF2FD00403489 /* ResultsViewControllerTest.swift in Sources */,
+				C1EB6CBA1ECD0B9F00403489 /* TableViewHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
